@@ -40,7 +40,7 @@ jobs:
         uses: invisirisk/pse-action@latest
         with:
           api_url: "https://app.dev.invisirisk.com"
-          app_token: Pranesh_Dhunju_Shrestha/all-ruby
+          app_token: JSB943X_kqLNenX2BYz9oMIIVhn0hQW67TwwnwnzQLE28ld6q3cY4lS-o8T6-M4SQHS1V2JnyR8pqfC6CTo_Nw
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
         with:
           ref: ${{ needs.sync-upstream.outputs.branch || github.ref_name }}
@@ -87,7 +87,7 @@ jobs:
         uses: invisirisk/pse-action@latest
         with:
           api_url: "https://app.dev.invisirisk.com"
-          app_token: Pranesh_Dhunju_Shrestha/all-ruby
+          app_token: JSB943X_kqLNenX2BYz9oMIIVhn0hQW67TwwnwnzQLE28ld6q3cY4lS-o8T6-M4SQHS1V2JnyR8pqfC6CTo_Nw
       - name: Remove unnecessary files to release disk space
         run: |
           sudo rm -rf \
@@ -143,7 +143,7 @@ jobs:
         uses: invisirisk/pse-action@latest
         with:
           api_url: "https://app.dev.invisirisk.com"
-          app_token: Pranesh_Dhunju_Shrestha/all-ruby
+          app_token: JSB943X_kqLNenX2BYz9oMIIVhn0hQW67TwwnwnzQLE28ld6q3cY4lS-o8T6-M4SQHS1V2JnyR8pqfC6CTo_Nw
       - name: Remove unnecessary files to release disk space
         run: |
           sudo rm -rf \
